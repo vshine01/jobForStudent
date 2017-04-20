@@ -1,0 +1,1 @@
+export const keyJobData = state => state.keyJob.keyJobData;
