@@ -7,8 +7,8 @@
                 <li :class="{'active': flags[1].value}"><a href="#/SpecialRecruitment" @click="tabLi(1)">专场招聘会</a></li>
                 <li :class="{'active': flags[2].value}"><a href="#/XiaoWaiRecruitment" @click="tabLi(2)">校外招聘会</a></li>
                 <li :class="{'active': flags[3].value}"><a href="#/MutualSelect" @click="tabLi(3)">双选会</a></li>
-                <li :class="{'active': flags[4].value}"><a href="#" @click="tabLi(4)">招聘信息</a></li>
-                <li :class="{'active': flags[5].value}"><a href="#" @click="tabLi(5)">实习信息</a></li>
+                <li :class="{'active': flags[4].value}"><a href="#/RecuritmentInfo" @click="tabLi(4)">招聘信息</a></li>
+                <!--<li :class="{'active': flags[5].value}"><a href="#" @click="tabLi(5)">实习信息</a></li>-->
             </ul>
         </div>
     </div>

@@ -10,6 +10,7 @@ import KeyJobFairs from './components/KeyJobFairs.vue';
 import SpecialRecruitment from './components/SpecialRecruitment.vue';
 import XiaoWaiRecruitment from './components/XiaoWaiRecruitment.vue';
 import MutualSelect from './components/MutualSelect.vue';
+import RecuritmentInfo from './components/RecuritmentInfo.vue';
 
 Vue.use(VueRouter);
 
@@ -32,5 +33,9 @@ export default new VueRouter({
         path: '/MutualSelect',
         name: 'MutualSelect',
         component: MutualSelect
+    }, {
+        path: '/RecuritmentInfo',
+        name: 'RecuritmentInfo',
+        component: RecuritmentInfo
     }]
 });
