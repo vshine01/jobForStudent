@@ -24,8 +24,10 @@
        margin: 0 auto;
    }
    h1 {
+       height: 65px;
        color: #fff;
        font-size: 30px;
-       padding: 10px 0 0 30px;
+       padding-left: 60px;
+       line-height: 65px;
    }
 </style>
