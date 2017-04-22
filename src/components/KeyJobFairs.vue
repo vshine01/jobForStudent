@@ -11,8 +11,8 @@
                     <th class="publishTime">发布时间</th>
                 </tr>
                 <tr v-for="item in keyJobData">
-                    <td><a href="#">{{item.name}}</a></td>
-                    <td style="textAlign:center;">{{item.date}}</td>
+                    <td><a href="#/KeyJobDetails">{{item.CompanyTitle}}</a></td>
+                    <td style="textAlign:center;">{{item.Time}}</td>
                 </tr>
             </table>
             <div v-if="emptyInfo" class="empty">没有找到对应的数据</div>
@@ -70,7 +70,7 @@ export default {
             let previousKeyJobData = this.keyJobData;
             let newKeyJobData = [];
             previousKeyJobData.map(item =>{
-                if (item.name.indexOf(this.text) != (-1)) {
+                if (item.CompanyTitle.indexOf(this.text) != (-1)) {
                     newKeyJobData.push(item);
                 }
             });
@@ -125,6 +125,9 @@ export default {
     }
     .keyJobNameTable table tr{
         height: 38px;
+    }
+    .keyJobNameTable table tr td a:hover {
+      text-decoration: underline;
     }
     .keyJobNameTable table .companyName {
         text-align: left;

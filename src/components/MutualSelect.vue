@@ -111,6 +111,9 @@
         }
     }
     .mutualCompanyInfo {
+        a:hover {
+          text-decoration: underline;
+        }
         height: 90px;
         border-bottom: 1px solid #ccc;
         .companyImg {

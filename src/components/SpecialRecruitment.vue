@@ -138,6 +138,11 @@
 </script>
 
 <style lang="scss">
+    #specialRecruitmentBox {
+        a:hover {
+          text-decoration: underline;
+        }
+    }
     .recruitmentName {
         height: 50px;
     }

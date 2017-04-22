@@ -4,19 +4,19 @@
             <h4>招聘信息</h4>
         </div>
         <div class="recuritmentSearch">
-            <div class="unitNature">单位性质: 
+            <div class="unitNature">单位性质:
                 <select  v-model="natureValue" @change="valueChange()">
                     <option value="0">--请选择--</option>
                     <option v-for="item in unitNatureData" :value="item.value">{{item.text}}</option>
                 </select>
             </div>
-            <div class="unitIndustry">单位行业: 
+            <div class="unitIndustry">单位行业:
                 <select v-model="industryValue" @change="valueChange()">
                     <option value="0">--请选择--</option>
                     <option v-for="item in unitIndustryData" :value="item.value">{{item.text}}</option>
                 </select>
             </div>
-            <div class="unitSite">单位所在: 
+            <div class="unitSite">单位所在:
                 <select v-model="siteValue" @change="valueChange()">
                     <option value="0">--请选择--</option>
                     <option v-for="item in unitSiteData" :value="item.id">{{item.Name}}</option>
@@ -214,6 +214,9 @@
                     padding-left: 5px;
                     a {
                         color: #428bd3;
+                    }
+                    a:hover {
+                      text-decoration: underline;
                     }
                 }
             }

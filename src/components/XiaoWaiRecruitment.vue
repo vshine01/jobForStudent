@@ -115,6 +115,9 @@
         outline: none;
     }
     #xiaowai table {
+        a:hover {
+          text-decoration: underline;
+        }
         width: 100%;
         height: auto;
         border: 1px solid #ccc;

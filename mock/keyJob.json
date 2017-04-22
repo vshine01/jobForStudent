@@ -1,21 +1,122 @@
 [
-    { "name": "【化学与药学院办】陕西莱特迈思光电材料有限公司", "date": "2017-03-31" },
-    { "name": "3月24日【动科承办】宝迪集团2017届毕业生校园招聘会", "date": "2017-03-24" },
-    { "name": "【2月28日】中水华夏水利科技研究院", "date": "2017-02-28" },
-    { "name": "11月11日【动科承办】新凤祥控股集团有限责任公司", "date": "2016-11-11" },
-    { "name": "11月09日【动科承办】广东恒兴集团", "date": "2016-11-09" },
-    { "name": "恒大金融控股集团(深圳)有限公司", "date": "2016-10-24" },
-    { "name": "关于推荐我校毕业研究生参加新疆公务员招录的通知", "date": "2016-10-23" },
-    { "name": "“恒心在·大未来” ——恒大金融集团2017校园招聘", "date": "2016-10-18" },
-    { "name": "“恒心在·大未来” ——恒大金融集团2017校园招聘", "date": "2016-10-18" },
-    { "name": "【动科承办】广东温氏食品集团股份有限公司", "date": "2016-10-09" },
-    { "name": "美的家用空调销售公司", "date": "2016-03-03" },
-    { "name": "三亚城市职业学院", "date": "2016-01-11" },
-    { "name": "安徽工程大学", "date": "2015-12-12" },
-    { "name": "全国八省市2015年冬季首届博士及优秀研究生、海归、高层次人才巡回招聘会", "date": "2015-12-07" },
-    { "name": "11月28日【综合类】2016届毕业生就业秋季洽谈会", "date": "2015-11-28" },
-    { "name": "【化学与药学院办】陕西莱特迈思光电材料有限公司", "date": "2017-03-31" },
-    { "name": "【化学与药学院办】陕西莱特迈思光电材料有限公司", "date": "2017-03-31" },
-    { "name": "【化学与药学院办】陕西莱特迈思光电材料有限公司", "date": "2017-03-31" },
-    { "name": "【化学与药学院办】陕西莱特迈思光电材料有限公司", "date": "2017-03-31" }
+    {
+        "PointMeetingId": "39610a6d-6e8d-4c4e-b340-f2485d607a50",
+        "JobMeetingId": "8a0a99cbf7c14c6cb9af9e65ebf8124b",
+        "CompanyTitle": "【化学与药学院办】陕西莱特迈思光电材料有限公司",
+        "Title": "举办招聘信息发布",
+        "Time": "2017-03-31",
+        "MeetingType": 1
+    },
+    {
+        "PointMeetingId": "14f81e3d-19bb-4221-8266-0537777bf4f8",
+        "JobMeetingId": "ad0e8b88ccb4436786cac7bcb22e3574",
+        "CompanyTitle": "3月24日【动科承办】宝迪集团2017届毕业生校园招聘会",
+        "Title": "举办专场招聘会",
+        "Time": "2017-03-24",
+        "MeetingType": 2
+    },
+    {
+        "PointMeetingId": "d43936db-8d13-423a-9f9c-861990eadfda",
+        "JobMeetingId": "80df4814257c4c11986922094b659e1b",
+        "CompanyTitle": "【2月28日】中水华夏水利科技研究院",
+        "Title": "举办专场招聘会",
+        "Time": "2017-02-28",
+        "MeetingType": 2
+    },
+    {
+        "PointMeetingId": "6b722d68-5b8e-48e8-a3ad-1b8c1ac2e044",
+        "JobMeetingId": "62b3c3951d324546a08e03dd7b2759df",
+        "CompanyTitle": "11月11日【动科承办】新凤祥控股集团有限责任公司",
+        "Title": "举办专场招聘会",
+        "Time": "2016-11-11",
+        "MeetingType": 2
+    },
+    {
+        "PointMeetingId": "c5edac27-5e3a-4b67-8f40-a362fbb46ad2",
+        "JobMeetingId": "112d19dac0d941a089d687ef35867d2c",
+        "CompanyTitle": "11月09日【动科承办】广东恒兴集团",
+        "Title": "举办专场招聘会",
+        "Time": "2016-11-09",
+        "MeetingType": 2
+    },
+    {
+        "PointMeetingId": "3bb53cfe-a807-4525-aa77-370700c8aa26",
+        "JobMeetingId": "0ebc6b6756b5413cbc7735c65f19831e",
+        "CompanyTitle": "恒大金融控股集团(深圳)有限公司",
+        "Title": "举办校外专场招聘会",
+        "Time": "2016-10-24",
+        "MeetingType": 3
+    },
+    {
+        "PointMeetingId": "b9db75d4-ed88-4407-bcf8-4657739e523b",
+        "JobMeetingId": "3d9fb94c777d45c58e78dc30c80cec64",
+        "CompanyTitle": "关于推荐我校毕业研究生参加新疆公务员招录的通知",
+        "Title": "举办校外专场招聘会",
+        "Time": "2016-10-23",
+        "MeetingType": 3
+    },
+    {
+        "PointMeetingId": "17add3ee-71c4-45e2-9536-00e1cf7baebb",
+        "JobMeetingId": "156d4b8d97c84b5ea32bbdb058f02d39",
+        "CompanyTitle": "“恒心在·大未来” ——恒大金融集团2017校园招聘",
+        "Title": "举办校外专场招聘会",
+        "Time": "2016-10-18",
+        "MeetingType": 3
+    },
+    {
+        "PointMeetingId": "941a86a0-2e08-457d-b46b-e53bb9e9b286",
+        "JobMeetingId": "773457a26ba5485f8da6039cdc5c9e6b",
+        "CompanyTitle": "“恒心在·大未来” ——恒大金融集团2017校园招聘",
+        "Title": "举办校外专场招聘会",
+        "Time": "2016-10-18",
+        "MeetingType": 3
+    },
+    {
+        "PointMeetingId": "8b6ae932-0f1e-42ce-96f0-c84077de9de3",
+        "JobMeetingId": "3ce2cdef9c8149a2a1af44961baa14dc",
+        "CompanyTitle": "【动科承办】广东温氏食品集团股份有限公司",
+        "Title": "举办招聘信息发布",
+        "Time": "2016-10-09",
+        "MeetingType": 1
+    },
+    {
+        "PointMeetingId": "f00cf51e-ec32-43f4-a086-e69377c9e6d0",
+        "JobMeetingId": "4c212771b2d0479690b2c8d8504d0494",
+        "CompanyTitle": "美的家用空调销售公司",
+        "Title": "举办招聘信息发布",
+        "Time": "2016-03-03",
+        "MeetingType": 1
+    },
+    {
+        "PointMeetingId": "12739bc5-44f3-40ab-aa18-72ab57afe95a",
+        "JobMeetingId": "c3bd0fe80ff7457b8d2fa119b63e25e1",
+        "CompanyTitle": "三亚城市职业学院",
+        "Title": "举办招聘信息发布",
+        "Time": "2016-01-11",
+        "MeetingType": 1
+    },
+    {
+        "PointMeetingId": "c34eb318-e7b0-4012-a37e-48867ed7d2b3",
+        "JobMeetingId": "7f5cc235732842838da3c97555e87d7e",
+        "CompanyTitle": "安徽工程大学",
+        "Title": "举办校外专场招聘会",
+        "Time": "2015-12-12",
+        "MeetingType": 3
+    },
+    {
+        "PointMeetingId": "1b3af34e-aebd-40fd-8520-7b7a8ba86bad",
+        "JobMeetingId": "77ae3831902f4673ad36b8d4dab45fa3",
+        "CompanyTitle": "全国八省市2015年冬季首届博士及优秀研究生、海归、高层次人才巡回招聘会",
+        "Title": "举办校外专场招聘会",
+        "Time": "2015-12-07",
+        "MeetingType": 3
+    },
+    {
+        "PointMeetingId": "8d3a803b-cb24-47e1-9d80-7061ddbdb7a7",
+        "JobMeetingId": "5771cc7e98c84ea4959deab48f7fdb51",
+        "CompanyTitle": "11月28日【综合类】2016届毕业生就业秋季洽谈会",
+        "Title": "举办专场招聘会",
+        "Time": "2015-11-28",
+        "MeetingType": 2
+    }
 ]
