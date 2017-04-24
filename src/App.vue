@@ -60,7 +60,7 @@ export default {
     margin: 0 auto;
   }
   #jobInfo {
-    width: 1254px;
+    width: 1185px;
     height: auto;
     overflow: hidden;
     padding: 15px 0 0 95px;
