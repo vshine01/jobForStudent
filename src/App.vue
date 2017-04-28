@@ -1,38 +1,22 @@
 <template>
-  <div id="webapp">
-    <div>
-      <header-bar></header-bar>
-    </div>
-    <div id="jobInfoBox">
-      <div id="jobInfo">
-        <div class="navContainer">
-          <nav-bar></nav-bar>
-          <div style="marginTop:20px;"><contact-information></contact-information></div>
-        </div>
-        <div class="companyInfo">
-          <router-view></router-view>
-        </div>
-      </div>
-    </div>
-    <div>
-      <footer-bar></footer-bar>
-    </div>
+  <div id="bigBox">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HeaderBar from './layout/Header.vue';
-import NavBar from './layout/Nav.vue';
-import FooterBar from './layout/Fotter.vue';
-import ContactInformation from './layout/ContactInformation.vue';
+// import HeaderBar from './layout/Header.vue';
+// import NavBar from './layout/Nav.vue';
+// import FooterBar from './layout/Fotter.vue';
+// import ContactInformation from './layout/ContactInformation.vue';
 export default {
-  name: 'app',
-  components: {
-    HeaderBar,
-    NavBar,
-    FooterBar,
-    ContactInformation
-  }
+  // name: 'app',
+  // components: {
+  //   HeaderBar,
+  //   NavBar,
+  //   FooterBar,
+  //   ContactInformation
+  // }
 }
 </script>
 
@@ -54,10 +38,9 @@ export default {
     height: 100%;
     width: 100%;
   }
-  #jobInfoBox {
+  #bigBox {
     width: 100%;
-    height: auto;
-    margin: 0 auto;
+    height: 100%;
   }
   #jobInfo {
     width: 1185px;

@@ -3,7 +3,7 @@
         <div class="jobApply"><p>就业应用</p></div>
         <div class="navOption">
             <ul>
-                <li :class="{'active': flags[0].value}"><a href="#" @click="tabLi(0)">重点推荐招聘会</a></li>
+                <li :class="{'active': flags[0].value}"><a href="#/Info" @click="tabLi(0)">重点推荐招聘会</a></li>
                 <li :class="{'active': flags[1].value}"><a href="#/SpecialRecruitment" @click="tabLi(1)">专场招聘会</a></li>
                 <li :class="{'active': flags[2].value}"><a href="#/XiaoWaiRecruitment" @click="tabLi(2)">校外招聘会</a></li>
                 <li :class="{'active': flags[3].value}"><a href="#/MutualSelect" @click="tabLi(3)">双选会</a></li>
