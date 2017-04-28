@@ -12,7 +12,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.first">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>
@@ -27,7 +27,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.second">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>
@@ -42,7 +42,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.third">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>
@@ -57,7 +57,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.fourth">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>
@@ -72,7 +72,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.fifth">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>
@@ -87,7 +87,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.sixth">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>
@@ -102,7 +102,7 @@
                     <th style="width:30%;">招聘地点</th>
                 </tr>
                 <tr v-for="item in recuritmentData.seventh">
-                    <td><a href="#">{{item.name}}</a></td>
+                    <td><a href="#/SpecialDetails">{{item.name}}</a></td>
                     <td>{{item.date}}</td>
                     <td>{{item.where}}</td>
                 </tr>

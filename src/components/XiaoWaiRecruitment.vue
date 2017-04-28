@@ -12,7 +12,7 @@
                     <th style="width:20%;" align="left">时间</th>
                 </tr>
                 <tr v-for="item in xiaowaiData">
-                    <td><a href="javascript:;">{{item.Title}}</a></td>
+                    <td><a href="#/KeyJobDetails">{{item.Title}}</a></td>
                     <td>{{item.MeetSite}}</td>
                     <td>{{item.MeetTime}}</td>
                 </tr>

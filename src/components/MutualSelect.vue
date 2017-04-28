@@ -8,7 +8,7 @@
             <div class="mutualCompanyInfo" v-for="item in mutualData">
                 <div class="companyImg"><img src="../assets/m.jpg" alt="图片加载失败"></div>
                 <div class="info">
-                    <p class="mutualName"><a href="javascript:;">{{item.CompanyTitle}}</a></p>
+                    <p class="mutualName"><a href="#/SpecialDetails">{{item.CompanyTitle}}</a></p>
                     <p class="mutualLink">
                         <span>单位邮箱：{{item.CompanyEmail}}</span>
                         <span>联系人：{{item.LinkMan}}</span>
@@ -18,7 +18,7 @@
                     <p class="mutualSite">招聘地点：{{item.MeetAddress}}</p>
                 </div>
                 <div class="linkButton">
-                    <a href="#">查看</a>
+                    <a href="#/SpecialDetails">查看</a>
                 </div>
             </div>
             <div v-if="emptyMutual" class="empty">没有找到对应的数据</div>

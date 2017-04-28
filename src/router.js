@@ -11,7 +11,8 @@ import SpecialRecruitment from './components/SpecialRecruitment.vue';
 import XiaoWaiRecruitment from './components/XiaoWaiRecruitment.vue';
 import MutualSelect from './components/MutualSelect.vue';
 import RecuritmentInfo from './components/RecuritmentInfo.vue';
-import KeyJobDetails from './components/KeyJobDetails.vue'
+import KeyJobDetails from './components/KeyJobDetails.vue';
+import SpecialDetails from './components/SpecialDetails.vue';
 
 
 Vue.use(VueRouter);
@@ -43,5 +44,9 @@ export default new VueRouter({
         path: '/KeyJobDetails',
         name: 'KeyJobDetails',
         component: KeyJobDetails
+    }, {
+        path: '/SpecialDetails',
+        name: 'SpecialDetails',
+        component: SpecialDetails
     }]
 });

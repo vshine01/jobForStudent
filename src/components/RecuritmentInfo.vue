@@ -32,7 +32,7 @@
                     <th>发布时间</th>
                 </tr>
                 <tr v-for="item in searchResultData">
-                    <td><a href="javascript:;">{{item.CompanyTitle}}</a></td>
+                    <td><a href="#/specialDetails">{{item.CompanyTitle}}</a></td>
                     <td>{{item.WorkPositon}}</td>
                     <td>{{item.EmployNum}}</td>
                     <td>{{item.Createtime}}</td>
