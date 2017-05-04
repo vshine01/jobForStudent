@@ -11,10 +11,10 @@
         <p>账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号： <input type="text" placeholder="请输入用户名" v-model="userName"></p>
       </div>
       <div class="password">
-        <p>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码： <input type="text" placeholder="请输入密码" v-model="password"></p>
+        <p>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码： <input type="password" placeholder="请输入密码" v-model="password"></p>
       </div>
       <div class="password">
-        <p>确认密码： <input type="text" placeholder="请再次输入密码" v-model="pwSure"></p>
+        <p>确认密码： <input type="password" placeholder="请再次输入密码" v-model="pwSure"></p>
       </div>
       <div class="registerButton">
         <p>
@@ -46,6 +46,7 @@ export default {
           this.link = "#/";
         }
       } else {
+        this.link = "javascript:;";
         alert("前后密码不一致，请重新输入密码！")
       }
     }
