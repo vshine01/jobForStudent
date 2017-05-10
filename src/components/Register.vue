@@ -34,22 +34,45 @@ export default {
       link: '',
       userName: '',
       password: '',
-      pwSure: ''
+      pwSure: '',
+      userInfo: []
     }
   },
   methods: {
+    // 注册用户
     registerSuccess() {
-      if (this.password == this.pwSure) {
+      if (this.password == this.pwSure && this.userName != window.localStorage.getItem("userName") && this.userInfo.indexOf(this.userName)<0) {
         window.localStorage.setItem("userName", this.userName);
         window.localStorage.setItem("password", this.password);
         if (confirm("注册成功，请登录！")) {
           this.link = "#/";
         }
-      } else {
+      } else if (this.password != this.pwSure) {
         this.link = "javascript:;";
         alert("前后密码不一致，请重新输入密码！")
+      } else {
+        this.link = "javascript:;";
+        alert("该用户名已经被注册，请重新设置用户名！");
       }
+    },
+    // 请求用户信息数据
+    userInfoLoading() {
+      let _this = this;
+      $.ajax({
+        url: '../mock/login.json',
+        success: function(data) {
+          // console.log(data);
+          // 利用map遍历请求回来的用户数据，把用户名称一起存放到userinfo这个数组中
+          data.map(item => {
+            _this.userInfo.push(item.userName);
+          });
+          // console.log(_this.userInfo);
+        }
+      });
     }
+  },
+  mounted() {
+    this.userInfoLoading();
   }
 
 }

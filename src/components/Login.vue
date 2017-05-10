@@ -11,7 +11,7 @@
         <p>账号： <input type="text" placeholder="请输入用户名" v-model="userName"></p>
       </div>
       <div class="password">
-        <p>账号： <input type="password" placeholder="请输入密码" v-model="password"></p>
+        <p>密码： <input type="password" placeholder="请输入密码" v-model="password"></p>
       </div>
       <div class="loginButton">
         <p>
