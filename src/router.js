@@ -16,6 +16,7 @@ import SpecialDetails from './components/SpecialDetails.vue';
 import Login from './components/Login.vue';
 import Info from './components/Info.vue';
 import Register from './components/Register.vue';
+import PersonalInfo from './components/PersonalInfo.vue';
 
 
 Vue.use(VueRouter);
@@ -63,6 +64,9 @@ export default new VueRouter({
   }, {
     path: '/Register',
     component: Register
+  }, {
+    path: '/PersonalInfo',
+    component: PersonalInfo
   }, {
     path: '/Info',
     component: Info,

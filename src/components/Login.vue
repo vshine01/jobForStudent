@@ -51,6 +51,7 @@ export default {
       this.loginData.map(item => {
         if ((this.userName == item.userName && this.password == item.password) || (this.userName == localStorage.getItem("userName") && this.password == localStorage.getItem("password"))) {
           this.routerLink = '#/Info';
+          window.localStorage.setItem("user", this.userName);
         }
       });
       if (this.routerLink != "#/Info") {
